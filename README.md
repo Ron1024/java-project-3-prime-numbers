@@ -13,12 +13,13 @@ To help you get started, here is a rough outline of the stages you should probab
 If you want to check that your code is correctly finding primes, you can find a list of primes at http://primes.utm.edu/lists/small/1000.txt
 
 # Marking Rubric
-Category       | Score        
----------------| -------------
-SCM            | 
-Specifications | 
-Code hygiene   | 
-Total          |
+Category              | Score        
+----------------------| -------------
+SCM                   |  
+Specifications        | 
+Code hygiene          | 
+Accepted pull request |
+**Total**             |  /10
 
 Marked on:
 

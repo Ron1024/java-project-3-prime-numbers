@@ -11,3 +11,15 @@ To help you get started, here is a rough outline of the stages you should probab
 1. Stop when you reach some appropriate end condition. In formulating this condition, don’t forget that your program did not generate the first prime (2). 
 
 If you want to check that your code is correctly finding primes, you can find a list of primes at http://primes.utm.edu/lists/small/1000.txt
+
+# Marking Rubric
+Category       | Score        
+---------------| -------------
+SCM            | 
+Specifications | 
+Code hygiene   | 
+Total          |
+
+Marked on:
+Comment:
+

@@ -5,12 +5,16 @@ public class PrimeNumbers
 	public static void main(String args[])
 	{
 		int primeCount = 0;
-		for (int num = 1;;num += 2) //infinite loop
+		Boolean isPrime = true;
+		for (double num = 1;;num += 2) //infinite loop
 		{
-			for (int i = 0; i < num; i++) 
+			for (double i = 0; i < num / 2; i++) 
 			{
-				
-			} 
+				if (num % i == 0)
+				{
+				isPrime = false;
+				}
+			}
 		}
 	}
 }

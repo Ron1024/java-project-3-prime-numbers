@@ -1,4 +1,4 @@
-# computing-prime-numbers
+# java-project-3-prime-numbers
 In this assignment you will write a program that computes and prints the 1000th prime number. 
 
 To help you get started, here is a rough outline of the stages you should probably follow in writing your code:

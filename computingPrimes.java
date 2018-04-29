@@ -2,7 +2,10 @@ import java.io.*;
 import java.util.*;
 public class computingPrimes {
    public static void main(String args[]) {
-      int[] primes = new int[1000];
+      Scanner input = new Scanner(System.in);
+      System.out.print("How many prime numbers do you want to generate? (10^x) ");
+      int size = (int)Math.floor(Math.pow(10, input.nextInt()));
+      int[] primes = new int[size];
       primes[0] = 2;
       int position, num = 1;
       do {
@@ -21,6 +24,6 @@ public class computingPrimes {
          while(primes[position] != 0);
       }
       while (primes[primes.length - 1] == 0);
-      System.out.println("The 1000th prime number is: " + num);
+      System.out.println("The " + size + "prime number is: " + num);
    }
 }

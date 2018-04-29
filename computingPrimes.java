@@ -4,9 +4,10 @@ public class computingPrimes {
    public static void main(String args[]) {
       int[] primes = new int[1000];
       primes[0] = 2;
-      int position, num = 3;
+      int position, num = 1;
       do {
          position = 0;
+         num += 2;
          do {
             if (num % primes[position] == 0) {
                break ;
@@ -18,8 +19,8 @@ public class computingPrimes {
             }
          }
          while(primes[position] != 0);
-         num += 2;
       }
       while (primes[primes.length - 1] == 0);
+      System.out.println("The 1000th prime number is: " + num);
    }
 }

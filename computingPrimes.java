@@ -9,11 +9,12 @@ public class computingPrimes {
          position = 0;
          do {
             if (num % primes[position] == 0) {
-               
+               break ;
             }
             position++;
             if (primes[position == 0) {
-               
+               primes[position] = num;
+               System.out.println("Prime number " + (position + 1) + " is " + num);
             }
          }
          while(primes[position] != 0);

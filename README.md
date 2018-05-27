@@ -12,3 +12,8 @@ To help you get started, here is a rough outline of the stages you should probab
 
 If you want to check that your code is correctly finding primes, you can find a list of primes at http://primes.utm.edu/lists/small/1000.txt
 
+Some ideas on how to go about the algorithm for determining if the number is a prime:
+- Check if the number is divisible by all previous numbers, starting from 1
+- Use divisibility rules to help determine if the number is not a prime
+- Generate a list of all possible factors and run through a series of elimination steps
+- Create a list and add each new prime to the list, checking only if the number is divisible by each prime in the list
